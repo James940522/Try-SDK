@@ -1,1 +1,19 @@
 @import url(./reset.css);
+
+* {
+  border: 5px solid black;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#startButton {
+  width: 150px;
+  height: 50px;
+}
